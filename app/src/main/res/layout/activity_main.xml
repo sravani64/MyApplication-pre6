@@ -13,4 +13,21 @@
         tools:layout_editor_absoluteY="228dp"
         tools:layout_editor_absoluteX="112dp" />
 
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="206dp"
+        android:layout_height="89dp"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteY="364dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="257dp"
+        android:layout_height="128dp"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="61dp" />
+
 </android.support.constraint.ConstraintLayout>
